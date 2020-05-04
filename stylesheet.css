@@ -1,0 +1,67 @@
+.notification
+ {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    margin-right: 10px;;
+    position: sticky;
+    border-radius: 2px;
+    float: right;
+  }
+  
+  .notification:hover {
+    background: #272727;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+  .frm 
+  {
+      
+    position : relative;
+    width  : 500px;
+    height : 300px;
+    margin : 100px auto;
+    padding: 1em;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  .form-group input:focus
+   {
+    background   : rgba(0,0,0,.1);
+    border-radius: 5px;
+  }
+  .form-group input
+  {
+    font    : 1.4em/1.5em "handwriting", cursive, sans-serif;
+    border  : none;
+    padding : 0 10px;
+    margin  : 0;
+    width   : 80%;
+    background : none;
+  }
+  .form-group label
+   {
+    font : .8em "typewriter", sans-serif;
+  }
+.jumbotron h1
+{
+ font-style: sans-serif;
+} 
+.jumbotron
+{
+    background: linear-gradient(to right,#C0C0C0,#808080);
+}
+.dropdown
+{
+  padding : 10px 10px;
+}
+  
