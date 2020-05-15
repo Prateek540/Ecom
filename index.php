@@ -153,7 +153,6 @@
 
 
 
-
 <nav class="navbar-wrapper navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
     <p class="navbar-text pull-left">&copy; 2020 by Technocom. All rights reserved.</p>
