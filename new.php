@@ -9,7 +9,7 @@ $conn=new mysqli($dbservername,$dbusername,$dbpassword,$dbname);
 
 if($conn->connect_error) die($conn->connect_error);
 
-$query="INSERT INTO feed(id,username,contact,message) VALUES(NULL,'$username','$contact','$message')";
+$query="INSERT INTO feed(username,contact,message) VALUES('$username','$contact','$message')";
 
 $result=$conn->query($query);
 
